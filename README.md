@@ -1,38 +1,66 @@
+***
+
 # 🔍 AI-Powered Deep Research Automation System
 
-Welcome to this intelligent ResearchManager — an advanced AI-driven orchestration system that automates deep research workflows from query planning, web searching, report writing, to email delivery — all seamlessly powered by async agents!
+Welcome to **ResearchManager** — a cutting-edge AI orchestration platform that automates and accelerates deep research workflows from query planning, web searching, report writing, to email delivery — powered by async agents and an interactive browser UI!
 
-# 🚀 What Does It Do?
+***
 
-This system transforms any research query into a comprehensive, expertly crafted report by:
+### 🚀 What Does It Do?
 
-  1. Strategically Planning Searches: Breaks down your research query into targeted web searches with clear objectives.
-  2. Performing Parallel Web Searches: Executes multiple search tasks asynchronously to gather diverse, relevant information quickly.
-  3. Writing Insightful Reports: Synthesizes search findings into readable, high-quality reports using AI-powered writing agents.
-  4. Automating Email Delivery: Sends the final research report directly to desired recipients via an AI-driven email agent.
+This intelligent system takes your research query and autonomously:  
 
-# 💡 Why This System Rocks?
+- **Plans targeted web searches** with clear reasoning for each task.  
+- **Executes asynchronous parallel searches** to quickly gather relevant information.  
+- **Synthesizes well-structured reports** from insights using advanced AI writing agents.  
+- **Delivers results via email** with AI-driven composition and sending.  
+- **Includes a user-friendly Gradio UI** to input queries and view reports interactively in your browser.
 
-  1. Fully Automated Deep Research: From planning to dissemination — no manual interruptions.
-  2. Asynchronous & Efficient: Uses Python’s async concurrency to speed up multiple web searches simultaneously.
-  3. Agentic AI Orchestration: Modular agents for search, planning, writing, and email create a powerful pipeline.
-  4. Traceability & Transparency: Generates trace IDs with accessible web trace links to track decision flow and debugging.
-  5. Extensible & Adaptable: Easily customize agents for different domains, queries, or reporting styles.
+***
 
-# 🔧 Technology & Tools
+### 💡 Why This System Rocks?
 
-  1. Python 3.x asynchronous programming with asyncio
-  2. Modular AI agents coordinated through an agent runner framework
-  3. Web-based tracing for process visibility and auditability
-  4. Agentic search, planning, writing, and email modules for flexible workflow construction
+- **End-to-End Research Automation:** From query input to email delivery — all fully automated.  
+- **Asynchronous Efficiency:** Concurrent searches drastically reduce processing time.  
+- **Agentic AI Modularity:** Separate agents for planning, searching, writing, and emailing for flexibility and quality.  
+- **Traceability:** Unique trace IDs provide transparent AI decision tracking and debugging ability.  
+- **Interactive Browser UI:** Powered by Gradio for real-time user interaction and streaming updates.  
+- **Secure Environment Config:** Loads keys and settings safely from `.env` files with `dotenv` support.
 
-# 🛠️ Ideal For
+***
 
-  1. Researchers and analysts needing fast, automated insights
-  2. Teams that want reliable, consistent research report generation
-  3. Developers building AI orchestration pipelines for knowledge workflows
+### 🔧 Technology & Tools
 
-#
-With ResearchManager, take your research efficiency and insight quality to the next level — fully AI-autonomous, transparent, and lightning-fast!
+- Python 3.x async programming with `asyncio`  
+- Agent orchestration framework coordinating AI planning, searching, writing, and emailing  
+- Gradio for interactive web UI with instant streaming feedback  
+- Dotenv for environment variable management  
+- Web trace URLs for internal process visibility and audit
 
-#
+***
+
+### 🖥️ How to Run
+
+Run the interactive deep research app with the following command in your terminal:
+
+```bash
+uv run deep_research.py
+```
+
+This will launch the Gradio interface in your default browser, where you can enter research queries and receive live AI-generated reports.
+
+***
+
+### 🛠️ Ideal For
+
+- Researchers and analysts needing efficient AI research assistance  
+- Teams that require scalable, automated knowledge gathering and reporting  
+- Developers building modular AI-driven pipelines with an interactive user experience
+
+***
+
+Transform your research workflow with **ResearchManager** — intelligent, fast, transparent, and ready to deliver insights at the click of a button!
+
+***
+
+If you want, I can help you create deployment guides or additional user documentation as well!
